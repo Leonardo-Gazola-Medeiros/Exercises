@@ -1,3 +1,3 @@
 def make_tags(tab, word):
     
-  return ('<',tab,'>',word,'</',tab,'>')
+  return (f'<{tab}>{word}</{tab}>')
